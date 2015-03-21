@@ -65,3 +65,10 @@ The complete list of variables of each feature vector is available in 'features.
 
 Data transformations
 --------------------
+The Feature Selection is, first, limited (and thus, filtered) to the mean() and std() features. That means keeping 86 of the existing 561 features, as you can see in the *features.txt* file.
+
+The following characters are removed from the original feature labels:
+- '-'
+- '('
+- ')'
+
