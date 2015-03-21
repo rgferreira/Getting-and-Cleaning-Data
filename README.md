@@ -1,10 +1,13 @@
 # Course Project: Getting and Cleaning Data
-Repo for submitting the Course Project for Getting and Cleaning Data (coursera-JHU)
+This repo is intended for submitting the Course Project for Getting and Cleaning Data (coursera-JHU)
+The courser is so fun and I wish I finish the Data Science specialization this year 2015.
 
-Now we underline
-----------------
-
-* This is a bullet
+Raw data
+--------
+We are accessing several raw data sources, as follows:
+- *features.txt* is the complete list of variables contained in the data files.
+- *activity_labels.txt* contains the six indexed types of activities.
+- *
 * This too
 #
 
