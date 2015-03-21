@@ -25,12 +25,7 @@ The so called *run_analysis.R* script tries to answer the five questions for the
 
 The comments inside the code refer to these as "Steps" with formatted tags as < Step i >
 
-
-## 1) Bullet
-## 2) Bullet
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+Code book
+---------
+You can find the CodeBook.md available in this repo.
+It contains the description of the performed transformation and the resultant data variables in the tidy dataset.
