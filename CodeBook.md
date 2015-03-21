@@ -65,10 +65,13 @@ The complete list of variables of each feature vector is available in 'features.
 
 Data transformations
 --------------------
-The Feature Selection is, first, limited (and thus, filtered) to the mean() and std() features. That means keeping 86 of the existing 561 features, as you can see in the *features.txt* file.
+The Feature Selection is, first, limited (and thus, filtered) to the mean() and std() features. That means keeping only 86 of the existing 561 features, as you can see in the *features.txt* file.
 
 The following characters are removed from the original feature labels:
 - '-'
 - '('
 - ')'
 
+The *test* and *train* samples are merged into one data frame alone. The activity label and the subject are added as two additional variables (originally #562 and #563 in the script) so that we can, finally, agrregate all the means and std variables selected from the previous Feature Selection.
+
+The result is a final tidy data set that has 180 observations (30 subjects by 6 activities) and 88 variables (86 variables from the initial Feature Selection, plus the activity and subject variables).
