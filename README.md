@@ -9,6 +9,7 @@ We are accessing several raw data sources, as follows:
 - **activity_labels.txt** contains the six indexed types of activities.
 - **X_train.txt** and **X_test.txt** contain, respectively, the features data for the training and test subjects.
 - **Y_train.txt** and **Y_test.txt** conatin, respectively, the activity labels for the training and test subjects.
+- **subject_train.txt** and **subject_test.txt** contain, respectively, the subject who performed the activity for the training and the test samples.
 
 Script
 ------
